@@ -16,7 +16,7 @@
 -include device/samsung/scx30g-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
--include vendor/samsung/core33g/BoardConfigVendor.mk
+-include vendor/samsung/goyave3g/BoardConfigVendor.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sc7730s
@@ -82,15 +82,15 @@ TARGET_BOARD_BACK_CAMERA_MIPI := phyab
 ##########################################
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_core33g_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/core33g
+TARGET_KERNEL_CONFIG := cyanogen_goyave3g_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/goyave3g
 
 # Resolution
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SM-G360H,SM-G360HU,core33g,core33gdd,core33gdx
+TARGET_OTA_ASSERT_DEVICE := SM-G360H,SM-G360HU,goyave3g,goyave3gdd,goyave3gdx
 
 # Graphics
 #TARGET_USES_GRALLOC1 := true
