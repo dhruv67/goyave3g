@@ -53,8 +53,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_core33g
-PRODUCT_DEVICE := core33g
+PRODUCT_NAME := full_goyave3g
+PRODUCT_DEVICE := goyave3g
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-G360H
