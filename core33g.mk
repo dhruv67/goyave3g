@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/samsung/core33g
+LOCAL_PATH := device/samsung/goyave3g
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit from vendor tree
-$(call inherit-product-if-exists, vendor/samsung/core33g/core33g-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/goyave3g/goyave3g-vendor.mk)
 
 # Inherit from scx30g-common device configuration
 $(call inherit-product, device/samsung/scx30g-common/common.mk)
